@@ -3,7 +3,7 @@ function digitalDecipher(b1, b2) {
     var result = ""
     const keyarr = Array.from(String(b2), Number);
     for (var i = 0; i < b1.length; i++) {
-        result += key[(b1[i]-1 )- (keyarr[i%keyarr.length])];
+        result += key[((b1[i]-1 )- keyarr[i%keyarr.length])%26];
     }
     console.log(result);
 }
