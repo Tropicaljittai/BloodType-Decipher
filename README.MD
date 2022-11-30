@@ -1,3 +1,2 @@
-#Joseph Ruys
-##L1AC
-##NIM 2602116964
+# Joseph Ruys
+NIM 2602116964 / L1AC
