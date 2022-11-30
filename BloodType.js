@@ -1,4 +1,4 @@
-function myFunction(b1, b2) {
+function canGiveBlood(b1, b2) {
     if (b1.charAt(1) == "-"){
       if(b1.charAt(0) == "O"){
         return true;
@@ -65,5 +65,10 @@ function myFunction(b1, b2) {
   }
 }
 }
-var f = myFunction("AB+", "A+");
-console.log(f);
+var i = canGiveBlood("O+", "A+");
+var j = canGiveBlood("A-", "B-");
+var k = canGiveBlood("A-", "AB+");
+
+console.log(i);
+console.log(j);
+console.log(k);
